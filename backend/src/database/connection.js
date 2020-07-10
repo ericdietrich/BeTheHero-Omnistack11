@@ -1,3 +1,5 @@
+//video 2: 55:40
+
 const knex = require('knex');
 const configuration = require('../../knexfile');
 

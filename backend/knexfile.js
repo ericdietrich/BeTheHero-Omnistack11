@@ -10,6 +10,7 @@ module.exports = {
     migrations: {
       directory: './src/database/migrations'
     },
+    //Corrige um warning ao executar -npx knex migrate:make create_ongs (video 2: 42:30)
     useNullAsDefault: true,
   },
 
